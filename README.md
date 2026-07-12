@@ -2,9 +2,11 @@
 
 ## Overview
 
-This repository documents the complete process of building my personal Security Operations Center (SOC) Home Lab.
+This repository shows the complete process of building my SOC Home Lab.
 
-The objective of this project is to create a functional lab environment that can be used for learning SIEM technologies, Windows event logging, endpoint monitoring, and SOC operations.
+I created this lab to learn how Security Operations Centers (SOC) work in a real environment. It helps me practice SIEM tools, Windows event logging, endpoint monitoring and log collection.
+
+The main goal of this project is to build a working SOC lab from scratch and understand how different tools work together.
 
 ---
 
@@ -21,28 +23,17 @@ The objective of this project is to create a functional lab environment that can
 
 ---
 
-## Project Objectives
+## Project Goals
 
-- Build a virtual SOC environment
-- Configure Windows 11 as the monitored endpoint
-- Install and configure Splunk Enterprise
-- Configure Splunk Universal Forwarder
-- Deploy Sysmon for endpoint telemetry
+- Build a SOC Home Lab
+- Install Windows 11 Pro in VirtualBox
+- Install Kali Linux in VirtualBox
+- Install Splunk Enterprise
+- Install Splunk Universal Forwarder
+- Install Sysmon
 - Forward Windows Event Logs to Splunk
-- Validate log collection
+- Check that logs are received successfully
 
 ---
 
-## Current Progress
-
-- [x] Oracle VirtualBox Installed
-- [x] Windows 11 Installed
-- [x] Kali Linux Installed
-- [x] Splunk Enterprise Installed
-- [x] Splunk Universal Forwarder Installed
-- [x] Sysmon Installed
-- [ ] Documentation in Progress
-
----
-
-This repository focuses only on the setup and configuration of the SOC Home Lab.
+This repository is only for building and configuring my SOC Home Lab. I will create separate repositories for attack simulations alert investigations and incident reports.
