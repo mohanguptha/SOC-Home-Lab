@@ -8,7 +8,7 @@ I installed Kali Linux to build a complete lab environment with both Windows and
 
 ---
 
-## Why I Chose Kali Linux
+## Why I Used Kali Linux
 
 I selected Kali Linux because it is one of the most popular Linux distributions used in cybersecurity.
 
