@@ -7,5 +7,5 @@ The configuration file was used while installing Sysmon to enable detailed endpo
 Installation command:
 
 ```cmd
-Sysmon64.exe -accepteula -i sysmonconfig.xml
+Sysmon64.exe -accepteula -i sysmonconfig-export.xml
 ```
